@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		562E9EA4DB8C9BF31AC0E363 /* Pods_Booking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D324777F6D34029F311781 /* Pods_Booking.framework */; };
+		82920DA4249C73B2007BA4C9 /* Booking.h in Headers */ = {isa = PBXBuildFile; fileRef = 82920DA2249C73B2007BA4C9 /* Booking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82920E2F249C78B5007BA4C9 /* BookingLandingContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82920E28249C78B5007BA4C9 /* BookingLandingContract.swift */; };
+		82920E30249C78B5007BA4C9 /* BookingLandingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82920E29249C78B5007BA4C9 /* BookingLandingPresenter.swift */; };
+		82920E31249C78B5007BA4C9 /* BookingLandingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82920E2A249C78B5007BA4C9 /* BookingLandingRouter.swift */; };
+		82920E32249C78B5007BA4C9 /* BookingLanding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82920E2C249C78B5007BA4C9 /* BookingLanding.storyboard */; };
+		82920E33249C78B5007BA4C9 /* BookingLandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82920E2D249C78B5007BA4C9 /* BookingLandingViewController.swift */; };
+		82920E34249C78B5007BA4C9 /* BookingLandingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82920E2E249C78B5007BA4C9 /* BookingLandingInteractor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82920E10249C77D5007BA4C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82920E0C249C77D5007BA4C9 /* Core.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 82920DB4249C73CA007BA4C9;
+			remoteInfo = Core;
+		};
+		82D162E4249C991800BE4CB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82D162E0249C991800BE4CB1 /* Chat.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 82920DF1249C76DF007BA4C9;
+			remoteInfo = Chat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02D324777F6D34029F311781 /* Pods_Booking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Booking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82920D9F249C73B2007BA4C9 /* Booking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Booking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82920DA2249C73B2007BA4C9 /* Booking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Booking.h; sourceTree = "<group>"; };
+		82920DA3249C73B2007BA4C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82920E0C249C77D5007BA4C9 /* Core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Core.xcodeproj; path = ../Core/Core.xcodeproj; sourceTree = "<group>"; };
+		82920E28249C78B5007BA4C9 /* BookingLandingContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingLandingContract.swift; sourceTree = "<group>"; };
+		82920E29249C78B5007BA4C9 /* BookingLandingPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingLandingPresenter.swift; sourceTree = "<group>"; };
+		82920E2A249C78B5007BA4C9 /* BookingLandingRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingLandingRouter.swift; sourceTree = "<group>"; };
+		82920E2C249C78B5007BA4C9 /* BookingLanding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BookingLanding.storyboard; sourceTree = "<group>"; };
+		82920E2D249C78B5007BA4C9 /* BookingLandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingLandingViewController.swift; sourceTree = "<group>"; };
+		82920E2E249C78B5007BA4C9 /* BookingLandingInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingLandingInteractor.swift; sourceTree = "<group>"; };
+		82D162E0249C991800BE4CB1 /* Chat.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Chat.xcodeproj; path = ../Chat/Chat.xcodeproj; sourceTree = "<group>"; };
+		926B931F5C7AC1F162EFFE40 /* Pods-Booking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Booking.release.xcconfig"; path = "Target Support Files/Pods-Booking/Pods-Booking.release.xcconfig"; sourceTree = "<group>"; };
+		DA3FDB094774826B342EE810 /* Pods-Booking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Booking.debug.xcconfig"; path = "Target Support Files/Pods-Booking/Pods-Booking.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82920D9C249C73B2007BA4C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562E9EA4DB8C9BF31AC0E363 /* Pods_Booking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		290C077A3768D126BB8CD8E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02D324777F6D34029F311781 /* Pods_Booking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82920D95249C73B2007BA4C9 = {
+			isa = PBXGroup;
+			children = (
+				82920DA1249C73B2007BA4C9 /* Booking */,
+				82920DE0249C76B2007BA4C9 /* Modules */,
+				82920DA0249C73B2007BA4C9 /* Products */,
+				EAE57662F90D9769BC07BB8D /* Pods */,
+				290C077A3768D126BB8CD8E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82920DA0249C73B2007BA4C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82920D9F249C73B2007BA4C9 /* Booking.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82920DA1249C73B2007BA4C9 /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				82920E1F249C7834007BA4C9 /* Features */,
+				82920DA2249C73B2007BA4C9 /* Booking.h */,
+				82920DA3249C73B2007BA4C9 /* Info.plist */,
+			);
+			path = Booking;
+			sourceTree = "<group>";
+		};
+		82920DE0249C76B2007BA4C9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				82D162E0249C991800BE4CB1 /* Chat.xcodeproj */,
+				82920E0C249C77D5007BA4C9 /* Core.xcodeproj */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		82920E0D249C77D5007BA4C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82920E11249C77D5007BA4C9 /* Core.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82920E1F249C7834007BA4C9 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				82920E27249C78B5007BA4C9 /* BookingLanding */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		82920E27249C78B5007BA4C9 /* BookingLanding */ = {
+			isa = PBXGroup;
+			children = (
+				82920E28249C78B5007BA4C9 /* BookingLandingContract.swift */,
+				82920E2E249C78B5007BA4C9 /* BookingLandingInteractor.swift */,
+				82920E29249C78B5007BA4C9 /* BookingLandingPresenter.swift */,
+				82920E2A249C78B5007BA4C9 /* BookingLandingRouter.swift */,
+				82920E2B249C78B5007BA4C9 /* View */,
+			);
+			path = BookingLanding;
+			sourceTree = "<group>";
+		};
+		82920E2B249C78B5007BA4C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				82920E2C249C78B5007BA4C9 /* BookingLanding.storyboard */,
+				82920E2D249C78B5007BA4C9 /* BookingLandingViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		82D162E1249C991800BE4CB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82D162E5249C991800BE4CB1 /* Chat.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAE57662F90D9769BC07BB8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA3FDB094774826B342EE810 /* Pods-Booking.debug.xcconfig */,
+				926B931F5C7AC1F162EFFE40 /* Pods-Booking.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		82920D9A249C73B2007BA4C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82920DA4249C73B2007BA4C9 /* Booking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		82920D9E249C73B2007BA4C9 /* Booking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82920DA7249C73B2007BA4C9 /* Build configuration list for PBXNativeTarget "Booking" */;
+			buildPhases = (
+				9EAD63547B9E529127373477 /* [CP] Check Pods Manifest.lock */,
+				82920D9A249C73B2007BA4C9 /* Headers */,
+				82920D9B249C73B2007BA4C9 /* Sources */,
+				82920D9C249C73B2007BA4C9 /* Frameworks */,
+				82920D9D249C73B2007BA4C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Booking;
+			productName = Booking;
+			productReference = 82920D9F249C73B2007BA4C9 /* Booking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82920D96249C73B2007BA4C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "DIKA METAL";
+				TargetAttributes = {
+					82920D9E249C73B2007BA4C9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = 82920D99249C73B2007BA4C9 /* Build configuration list for PBXProject "Booking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82920D95249C73B2007BA4C9;
+			productRefGroup = 82920DA0249C73B2007BA4C9 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 82D162E1249C991800BE4CB1 /* Products */;
+					ProjectRef = 82D162E0249C991800BE4CB1 /* Chat.xcodeproj */;
+				},
+				{
+					ProductGroup = 82920E0D249C77D5007BA4C9 /* Products */;
+					ProjectRef = 82920E0C249C77D5007BA4C9 /* Core.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				82920D9E249C73B2007BA4C9 /* Booking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		82920E11249C77D5007BA4C9 /* Core.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Core.framework;
+			remoteRef = 82920E10249C77D5007BA4C9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		82D162E5249C991800BE4CB1 /* Chat.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Chat.framework;
+			remoteRef = 82D162E4249C991800BE4CB1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82920D9D249C73B2007BA4C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82920E32249C78B5007BA4C9 /* BookingLanding.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9EAD63547B9E529127373477 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Booking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82920D9B249C73B2007BA4C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82920E30249C78B5007BA4C9 /* BookingLandingPresenter.swift in Sources */,
+				82920E2F249C78B5007BA4C9 /* BookingLandingContract.swift in Sources */,
+				82920E34249C78B5007BA4C9 /* BookingLandingInteractor.swift in Sources */,
+				82920E33249C78B5007BA4C9 /* BookingLandingViewController.swift in Sources */,
+				82920E31249C78B5007BA4C9 /* BookingLandingRouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		82920DA5249C73B2007BA4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82920DA6249C73B2007BA4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		82920DA8249C73B2007BA4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA3FDB094774826B342EE810 /* Pods-Booking.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TYKF29TUG5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Booking/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cinta.satu.malam.booking;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82920DA9249C73B2007BA4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 926B931F5C7AC1F162EFFE40 /* Pods-Booking.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TYKF29TUG5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Booking/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cinta.satu.malam.booking;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82920D99249C73B2007BA4C9 /* Build configuration list for PBXProject "Booking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82920DA5249C73B2007BA4C9 /* Debug */,
+				82920DA6249C73B2007BA4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82920DA7249C73B2007BA4C9 /* Build configuration list for PBXNativeTarget "Booking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82920DA8249C73B2007BA4C9 /* Debug */,
+				82920DA9249C73B2007BA4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82920D96249C73B2007BA4C9 /* Project object */;
+}

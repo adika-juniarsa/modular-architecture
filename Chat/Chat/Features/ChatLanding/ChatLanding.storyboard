@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1dX-N7-XUl">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ChatLanding-->
+        <scene sceneID="5We-7B-J9h">
+            <objects>
+                <viewController storyboardIdentifier="ChatLandingViewController" title="ChatLanding" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1dX-N7-XUl" customClass="ChatLandingViewController" customModule="Chat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1aI-fb-72i">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THIS IS CHAT LANDING" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16p-GC-MkU">
+                                <rect key="frame" x="111" y="437.5" width="192" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lPj-d7-XCe">
+                                <rect key="frame" x="16" y="60" width="34" height="30"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="buttonBackTouchUp:" destination="1dX-N7-XUl" eventType="touchUpInside" id="a0Y-0w-lLs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lPj-d7-XCe" firstAttribute="top" secondItem="DEK-3G-Vg1" secondAttribute="top" constant="16" id="ATL-9W-Trz"/>
+                            <constraint firstItem="16p-GC-MkU" firstAttribute="centerY" secondItem="1aI-fb-72i" secondAttribute="centerY" id="dYt-aZ-2En"/>
+                            <constraint firstItem="16p-GC-MkU" firstAttribute="centerX" secondItem="1aI-fb-72i" secondAttribute="centerX" id="dpK-Gh-f1q"/>
+                            <constraint firstItem="lPj-d7-XCe" firstAttribute="leading" secondItem="DEK-3G-Vg1" secondAttribute="leading" constant="16" id="frY-PD-QIp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DEK-3G-Vg1"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SDV-u4-9W0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+</document>
